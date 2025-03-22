@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geist Fonts Example</title>
+  <style>
+    @font-face {
+      font-family: 'GeistMonoVF';
+      src: url('GeistMonoVF (1).woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'GeistVF';
+      src: url('GeistVF.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      background-color: #fafafa;
+      color: #222;
+      padding: 40px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-family: 'GeistVF', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-family: 'GeistVF', sans-serif;
+      font-size: 1.25rem;
+      margin-bottom: 1em;
+    }
+
+    code {
+      display: block;
+      background-color: #272727;
+      color: #00ff90;
+      padding: 16px;
+      border-radius: 10px;
+      margin-top: 30px;
+      font-family: 'GeistMonoVF', monospace;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Geist Fonts Demo</h1>
+  <p>This paragraph uses the GeistVF variable font.</p>
+  <p>The code block below uses GeistMonoVF, great for monospaced code examples:</p>
+  <code>
+    function greet() {<br>
+    &nbsp;&nbsp;console.log('Hello, Geist!');<br>
+    }
+  </code>
+</body>
+</html>
